@@ -1,0 +1,19 @@
+{
+  "name": "pinnradar-examples-node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js examples for the PinnRadar odds API",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "sports": "node list-sports.mjs",
+    "drops": "node drop-alerts-sse.mjs",
+    "ws": "node websocket-feed.mjs"
+  },
+  "dependencies": {
+    "ws": "8.18.3"
+  }
+}
